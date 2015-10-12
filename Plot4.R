@@ -24,4 +24,6 @@ Plot4 <- function() {
   dev.copy(png, file="Plot4.png", width=480, height=480)
   dev.off()
 }
+
 Plot4()
+

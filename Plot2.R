@@ -3,4 +3,5 @@ plot2 <- function() {
   dev.copy(png, file="plot2.png", width=480, height=480)
   dev.off()
 }
+
 plot2()

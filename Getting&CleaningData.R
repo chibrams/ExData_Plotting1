@@ -19,4 +19,8 @@ subSetData $Sub_metering_1 <- as.numeric(as.character(subSetData $Sub_metering_1
 subSetData $Sub_metering_2 <- as.numeric(as.character(subSetData $Sub_metering_2))
 subSetData $Sub_metering_3 <- as.numeric(as.character(subSetData $Sub_metering_3))
 # Cleaning workspace from data source files.
+<<<<<<< HEAD
 unlink("data", recursive=TRUE)
+=======
+unlink("data", recursive=TRUE)
+>>>>>>> a59f93ffe3cb1d6017e1386a580444be11fc53af
